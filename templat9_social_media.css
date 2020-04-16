@@ -1,0 +1,347 @@
+*
+{
+	box-sizing: border-box;
+	 margin: 0;padding: 0;
+	font-family: sans-serif;
+	
+}
+body
+{
+	background-color: rgba(246,245,250,1);
+
+}
+
+.header
+{
+	width: 100%;
+	background-color:rgba(2,63,139,1);
+	color: white;
+	font-size: 20px;
+	position: fixed;
+	top: 0;
+	vertical-align: middle;
+	padding:15px 0 15px 0 ;overflow: hidden;
+	z-index: 1 ;
+}
+.header > a
+{
+	text-decoration: none ;
+	color: white;
+	padding:15px;
+}
+.header > a:hover
+{
+	background-color:rgba(35,140,180,.5);
+	color:black;
+	margin: auto;
+	height: auto;
+}
+.header img 
+{
+	width: 1.5%;
+	border:0px solid transparent;
+	border-radius:50%;
+	float: right;
+	margin-right: 40px;
+	/*position: absolute;
+	left:91%;*/
+	vertical-align: baseline;
+}
+a > span 
+{
+	color: white;
+	font-size:10px;
+	background-color: red;padding:4px;
+	border-radius:95%;
+	vertical-align: text-top;
+	word-spacing:none;
+}
+
+.mainpage
+{
+	display: grid;
+	grid-template-columns: 24% 55% 15% ;
+	grid grid-template-rows: auto auto auto ;
+	grid-gap:20px;
+	justify-content: center;
+	margin:20px;
+	margin-top: 70px;
+	border: 0px solid transparent;
+	box-shadow:7px 7px 4px (169,169,169,.5);
+
+}
+.mainpage  div
+{
+
+
+}
+.main_left >div , .middle > div  , .main_right > div 
+{
+	background-color: white;
+	margin-bottom:20px;
+	
+	
+}
+.main_left1
+{
+	padding: 20px;
+	background-color: white;
+	margin-bottom:20px;
+}
+.main_left1>img
+{
+	width:50%;
+	display: block;
+	margin: auto;
+	border-radius: 50%;
+	padding: 20px;
+	
+}
+
+.main_left1>p 
+{
+	padding:10px;
+}
+	
+p > i , button > i 
+{
+margin-right: 15px;
+}
+
+.main_left2 > button   ,  .mid1 > button   ,  .mid2 > button  ,   .mid3 > button 
+, .mid4   button , .m_right1 > button , .bt20 > button 
+{
+	width: 100%;
+	border:1px solid transparent ;
+    color: white;
+	background-color:rgba(2,63,139,1);
+	font-size:15px;
+	padding:10px 20px 10px 20px;
+	text-align:left;
+}
+
+.main_left2 > button:hover , .mid1 > button:hover , .mid2 > button:hover              , .mid3 > button:hover   ,   .mid4   button:hover , .m_right1 > button:hover ,
+.bt20 > button:hover 
+{
+	background-color:rgba(35,140,180,.5);
+	color: black;
+}
+
+.main_left3
+{
+	padding: 20px ;
+}
+.spans > span 
+{
+	background-color: rgba(35,140,180,1);
+	padding: 5px; margin:5px;
+	color: white; line-height:30px;
+	border-radius:10px 10px ;
+}
+
+.main_lef4
+{
+	position:relative;
+	padding:20px;
+	background-color: chocolate;
+	
+}
+
+.but4
+{
+	 border:0px solid transparent;
+	background-color: rgba(2,63,139,1);
+	width:25px;
+	padding:5px;position: absolute;
+	left:93%;
+	top:0;
+	color: white;
+	
+}
+.but4:hover
+{
+	background-color: rgba(35,140,180,.5);
+}
+
+
+.mid1
+{
+	padding: 20px;
+	width: auto;
+}
+
+.mid1 > p
+{
+	color:lightgray;
+}
+.txt1
+{
+	width: 100%;
+	height:40px;
+	margin:20px 0 20px 0 ;
+	font-size: 20px;
+}
+
+.mid2 , .mid3 ,.mid4
+{
+	padding: 20px 20px 20px 20px ;
+	position: relative;
+	border: 1px solid transparent;
+}
+.im4
+{
+	float: left;
+	border: 1px solid green;
+	width:8%;
+	border-radius: 50%;
+	margin-right:15px;
+	
+ 
+}
+.mid2 > .p1 , .mid3 > .p1 , .mid4 > .p1 
+{
+  border: 0px solid transparent ;
+  width: 10%;
+   margin-left:0;
+   padding:20px 0 20px 0;
+	display: inline-block;
+}
+
+.p2
+{
+	position: absolute;
+	left:90%;
+	clear: both;
+}
+hr
+{
+	clear: both;
+	background-color:lightgray;
+	margin:30px 0 15px 0;
+}
+.img4
+{
+	border: 1px solid transparent;
+	width:100%;
+	height:300px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin:20px 0 20px 0 ;
+	padding: 20px 0 20px 0;
+}
+.img4 > img 
+{
+	margin:10px;
+	max-width:45%;
+}
+
+
+.main_right > div 
+{
+	padding:20px;
+	text-align: center;
+}
+
+.m_right1 >img  , .m_right2 > img 
+{
+	
+	width:75%;
+	display: block;
+	margin:auto;
+	margin-top:20px;
+	margin-bottom: 20px;
+	
+}
+
+.b20 > button 
+{
+	width: 45%;
+	padding:10px ;
+	margin-top: 20px;
+	border:1px solid transparent ;
+    color: white;
+	background-color:rgba(2,63,139,1);
+	font-size:15px;
+}
+
+.b20 > button:hover
+{
+	background-color:rgba(35,140,180,.5);
+	color: black;
+}
+
+
+.foot
+{
+	background-color:rgba(2,63,139,1);
+	text-align: center;
+	padding: 40px;
+	color: white;
+}
+
+
+@media screen and (max-width:600px)
+
+{
+	.mainpage
+	{
+		display: grid;
+	grid-template-columns: 95%;
+	grid grid-template-rows: auto ;
+	
+	}
+	.header > a
+	{
+		padding: 20px;
+	}
+	
+	.header img 
+{
+	width:5%;
+	
+	
+}
+}
+
+
+
+
+@media screen and (min-width:600px ) and ( max-width:1050px )
+
+{
+	.mainpage
+	{
+		display: grid;
+	grid-template-columns: 30% 60% ;
+	grid grid-template-rows: auto auto  ;
+	
+	}
+	.main_right
+	{
+		display: none;
+	}
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
